@@ -98,6 +98,11 @@
   //     }
   //   }
   // })
+document.getElementById('btn-reload').addEventListener('click', function () {
+  store.sapXepTheoId();
+  store.save();
+  renderTable(store.getProduct());
+  })
   document.getElementById('btn-sort-gia-tang').addEventListener('click', function(){
     store.sapXepTheoGia(true);
     store.save();
