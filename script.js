@@ -109,10 +109,10 @@ document.getElementById('frmLogin') && document.getElementById('frmLogin').addEv
   const check_admin = "admin";
   if (isCreate && role == check_admin) {
     alert('Đăng nhập thành công')
-    window.location = "./admin/product.html";
+    window.location = "./product.html";
   } else if (isCreate) {
     alert('Đăng nhập thành công')
-    window.location = "./user/product.html";
+    window.location = "./product.html";
   }
   else {
     alert('Đăng nhập thất bại')
